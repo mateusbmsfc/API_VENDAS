@@ -1,6 +1,8 @@
+import 'reflect-metadata';
 import express from 'express';
 import cors from 'cors';
 
+import '@shared/typeorm';
 import { routes } from './routes';
 import { HandleAppError } from '@shared/middleware/HandleAppError';
 
